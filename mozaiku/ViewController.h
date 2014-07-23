@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Image.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController{
+    IBOutlet UIImageView *imgView;
+}
+-(IBAction)resize:(id)sender;
+-(IBAction)check:(id)sender;
 @end

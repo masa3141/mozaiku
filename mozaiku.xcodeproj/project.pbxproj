@@ -21,6 +21,8 @@
 		4D8653E1197CDDE800530E87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8653C3197CDDE700530E87 /* UIKit.framework */; };
 		4D8653E9197CDDE800530E87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D8653E7197CDDE800530E87 /* InfoPlist.strings */; };
 		4D8653EB197CDDE800530E87 /* mozaikuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8653EA197CDDE800530E87 /* mozaikuTests.m */; };
+		4D8653F6197CDF4600530E87 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8653F5197CDF4600530E87 /* Image.m */; };
+		4D8653F8197CE1C300530E87 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8653F7197CE1C300530E87 /* heart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		4D8653E6197CDDE800530E87 /* mozaikuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mozaikuTests-Info.plist"; sourceTree = "<group>"; };
 		4D8653E8197CDDE800530E87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D8653EA197CDDE800530E87 /* mozaikuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mozaikuTests.m; sourceTree = "<group>"; };
+		4D8653F4197CDF4600530E87 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		4D8653F5197CDF4600530E87 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		4D8653F7197CE1C300530E87 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				4D8653D1197CDDE700530E87 /* Main.storyboard */,
 				4D8653D4197CDDE700530E87 /* ViewController.h */,
 				4D8653D5197CDDE700530E87 /* ViewController.m */,
+				4D8653F4197CDF4600530E87 /* Image.h */,
+				4D8653F5197CDF4600530E87 /* Image.m */,
+				4D8653F7197CE1C300530E87 /* heart.png */,
 				4D8653D7197CDDE700530E87 /* Images.xcassets */,
 				4D8653C6197CDDE700530E87 /* Supporting Files */,
 			);
@@ -229,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D8653D8197CDDE700530E87 /* Images.xcassets in Resources */,
+				4D8653F8197CE1C300530E87 /* heart.png in Resources */,
 				4D8653CA197CDDE700530E87 /* InfoPlist.strings in Resources */,
 				4D8653D3197CDDE700530E87 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D8653D6197CDDE700530E87 /* ViewController.m in Sources */,
+				4D8653F6197CDF4600530E87 /* Image.m in Sources */,
 				4D8653D0197CDDE700530E87 /* AppDelegate.m in Sources */,
 				4D8653CC197CDDE700530E87 /* main.m in Sources */,
 			);
