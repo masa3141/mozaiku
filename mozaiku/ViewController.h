@@ -8,10 +8,19 @@
 
 #import <UIKit/UIKit.h>
 #import "Image.h"
+#import <AssetsLibrary/AssetsLibrary.h>
 
-@interface ViewController : UIViewController{
-    IBOutlet UIImageView *imgView;
+@interface ViewController : UIViewController<UINavigationControllerDelegate, UIImagePickerControllerDelegate>{
+    IBOutlet UIImageView *imgView;//モザイクアートの元の画像
+    ALAssetsLibrary *library;//カメラロールから画像を取得する
+    NSURL *groupURL;
+    NSString *AlbumName;//カメラロールの、どのフォルダから取得するか
+    NSMutableArray *AlAssetsArr;//カメラロールの画像の配列
+    NSMutableArray *cameraArr;//カメラロールの画像の色情報の配列
+    NSMutableArray *pixelArr;//モザイクアートの元画像の、各ピクセルの色情報の配列
 }
--(IBAction)resize:(id)sender;
--(IBAction)check:(id)sender;
+
+-(IBAction)resize:(id)sender;//画像圧縮
+-(IBAction)check:(id)sender;//モザイクアート
+-(IBAction)select:(id)sender;//画像選択
 @end
