@@ -21,6 +21,7 @@
 }
 
 -(IBAction)resize:(id)sender;//画像圧縮
--(IBAction)check:(id)sender;//モザイクアート
 -(IBAction)select:(id)sender;//画像選択
+-(IBAction)btnMozaiku:(id)sender;//モザイクアート
+
 @end
